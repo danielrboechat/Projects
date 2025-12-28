@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociais</title>
+    <link rel="shortcut icon" href="pacote-d013/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 98.5vh;
+            width: 98.5vw;
+            position: relative;
+        }
+        div.cel{
+            position: absolute;
+            background-image: url(pacote-d013/imagens/frame-iphone.png);
+            height: 630px;
+            width: 310px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        iframe{
+            position: relative;
+            height: 36vh;
+            width: 87%;
+            top: 80px;
+            left: 22px;
+            background-position: center center;   
+        }
+        .logo{
+            border-radius: 50px;
+            height: 50px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+            display: block;
+            margin-left: auto;
+            box-sizing: border-box;
+        }
+
+        .logo:hover{
+            border: 2px solid rgba(255, 255, 255, 0.603);
+            transform: translate(-2px,-2px);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+            transition-duration: 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div><a href="home.html" target="frame"><img class="logo" src="pacote-d013/imagens/logo-home.jpg" alt="Home"></a></div>
+        <div><a href="youtube.html" target="frame"><img  class="logo" src="pacote-d013/imagens/logo-youtube.jpg" alt="Youtube"></a></div>
+        <div><a href="github.html" target="frame"><img  class="logo" src="pacote-d013/imagens/logo-github.jpg" alt="Github"></a></div>
+        <div><a href="instagram.html" target="frame"><img  class="logo" src="pacote-d013/imagens/logo-instagram.jpg" alt="Instagram"></a></div>
+        <div><a href="twitter.html" target="frame"><img  class="logo" src="pacote-d013/imagens/logo-twitter.jpg" alt="Twitter"></a></div>
+        <div><a href="facebook.html" target="frame"><img  class="logo" src="pacote-d013/imagens/logo-facebook.jpg" alt="Facebook"></a></div>
+    </nav>
+    <div class="cel">
+        <div class="tela"><iframe scrolling="auto" src="home.html" frameborder="0" name="frame">
+            Seu navegador não é compatível, abra no Google Chrome.
+        </iframe></div>
+    </div>
+    
+</body>
+</html>

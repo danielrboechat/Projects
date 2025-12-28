@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to bottom, #5E2C82, #4A989B);
+    }
+
+    section{
+        width: 700px;
+        height: 300px;
+    }
+    
+    .div-foto{
+        float: left;
+        width: 200px;
+        height: 300px;
+    }
+
+    .login{
+        float: right;
+        width: 500px;
+    }
+    .texto{
+        font-size: 1.0em;
+    }
+
+    .entrar{
+        width: 97.7%;
+    }
+
+    #isenha,#iemail{
+        width: 430px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, #5E2C82, #4A989B);
+    }
+
+    section{
+        width: 950px;
+        height: 400px;
+    }
+    
+    .div-foto{
+        float: right;
+        width: 450px;
+        height: 400px;
+    }
+
+    .login{
+        float: left;
+        width: 500px;
+    }
+
+    .titulo{
+        padding-top: 10px;
+    }
+
+    .texto{
+        font-size: 1.2em;
+        padding: 20px;
+    }
+
+    .entrar{
+        width: 97.7%;
+    }
+
+    #isenha,#iemail{
+        width: 430px;
+    }
+}
